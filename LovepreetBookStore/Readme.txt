@@ -10,3 +10,39 @@ add a new file README.txt
 and commit
 new i am going to test it in college i comment the ssl 
 27/10/2023
+10.45
+examine all code in visiual studio 
+and also know about how beakpoint 
+at idex and privacy 
+then run it 
+and hit continue 
+sooooooo
+it show welcome massage page
+then i click on privacy 
+it runs back to visual studio 
+then i hit continue 
+i can see privacy 
+then i took a break 
+11.20am
+i return back and 
+i fogot to register them i tried to resister
+but i was  doing login 
+it return in valid password 
+then i register and set password
+it shows exception 
+and its because of i have not applied migration 
+then i applied migration from brower
+...
+../
+/
+/
+now iam tring to login my resiter account
+let's go
+11.26
+ first i was unable because of breake points 
+ then i remove and test it 
+ its good to go
+yup 
+i did it......
+now its time to do 1.3 bootstrap
+I CHOOSE FLATY THEME AND DOWNLOAD BOOTSTRAP.CSS
