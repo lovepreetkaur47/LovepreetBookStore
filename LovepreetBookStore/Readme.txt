@@ -46,3 +46,21 @@ yup
 i did it......
 now its time to do 1.3 bootstrap
 I CHOOSE FLATY THEME AND DOWNLOAD BOOTSTRAP.CSS
+then.....
+i took break and enjoy the outside view 
+then return to work
+1:09 pm
+i clone repo on my own computer 
+remove comment from ssl
+the run it
+it was good to go ahead
+rename exiting site.css file and add new site.css which is provided by Andrew
+modify layout.css and also 
+rename the bootstrap and add new bootstrap add to layout.cshtml 
+1:33pm and also
+//
+/
+modify layoutpartial.css
+then run it 
+yupppp......
+ i did it 5
