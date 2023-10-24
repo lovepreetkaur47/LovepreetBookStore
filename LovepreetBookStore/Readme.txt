@@ -63,4 +63,5 @@ rename the bootstrap and add new bootstrap add to layout.cshtml
 modify layoutpartial.css
 then run it 
 yupppp......
- i did it 5
+ i did it 
+ i did not understand the next i took a break
