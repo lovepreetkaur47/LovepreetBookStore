@@ -65,3 +65,19 @@ then run it
 yupppp......
  i did it 
  i did not understand the next i took a break
+after long break
+10.21am 
+28/10/2023
+first i added contentMangemet in navigation bar
+then i did
+alot of struggle to add drop down item 
+after long search i add it i took little bit help from youtube 
+actually i a following a channel coding ninja where i found this method
+first i changed nav-item to class="nav-item dropdown
+this is css style
+then 
+<a> modify toggles the dropdown menu
+class="nav-link dropdown-toggle" classes the styling of the link,  function as a dropdown toggle.
+href="#": The href attribute is set to # to make the link clickable but not direct to any actual page.
+
+ceholder href attributes, usually for JavaScript-enabled functionality. Replace # with actual URLs as needed.
