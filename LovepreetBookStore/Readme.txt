@@ -80,4 +80,14 @@ then
 class="nav-link dropdown-toggle" classes the styling of the link,  function as a dropdown toggle.
 href="#": The href attribute is set to # to make the link clickable but not direct to any actual page.
 
-ceholder href attributes, usually for JavaScript-enabled functionality. Replace # with actual URLs as needed.
+placeceholder href attributes, usually for JavaScript-enabled functionality. Replace # with actual URLs as needed.
+same day
+evening
+6.06
+i started work again on my assignment afetr setting up the phpstrom for assignment 
+i test it again 
+i can,t believe on my eyes 
+its working without any mistake
+now......................................
+i am going to satrt 1.4 part
+at 6.08
