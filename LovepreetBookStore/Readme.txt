@@ -92,3 +92,10 @@ now......................................
 i am going to satrt 1.4 part
 at 6.08
 first create 3 more project as previous one
+upssssssssssssssssssss.......
+i created wrong one as previous mvc
+now i delete all create project 
+then search for claass library i found it 
+i create its on another name 
+them also delete
+i found right one now i am going to create it with class library
