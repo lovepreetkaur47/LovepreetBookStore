@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovepreetBook.Model", "Love
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovepreetBook.Utility", "LovepreetBook.Utility\LovepreetBook.Utility.csproj", "{63A4786A-24BC-41CD-9EC8-8C6E73A1BD90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovepreetBokk.DataAccess", "LovepreetBokk.DataAccess\LovepreetBokk.DataAccess.csproj", "{11A75E32-1E14-421E-BBED-AFA5C03D47B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LovepreetBook.DataAccess", "LovepreetBokk.DataAccess\LovepreetBook.DataAccess.csproj", "{11A75E32-1E14-421E-BBED-AFA5C03D47B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

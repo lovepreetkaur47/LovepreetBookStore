@@ -117,3 +117,7 @@ them i provide rference
 now i am ready to go forward
 5.30 create static class in LovepreetBook.Utility project
 then modify the properties of sd class to public
+then 
+5.37 going to add Project references to Main project
+also add roject references to DataAccess project 
+5.52

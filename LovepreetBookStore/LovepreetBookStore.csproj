@@ -16,8 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LovepreetBokk.DataAccess\LovepreetBokk.DataAccess.csproj" />
+    <ProjectReference Include="..\LovepreetBook.DataAccess\LovepreetBook.DataAccess.csproj" />
     <ProjectReference Include="..\LovepreetBook.Model\LovepreetBook.Model.csproj" />
+    <ProjectReference Include="..\LovepreetBook.Utility\LovepreetBook.Utility.csproj" />
   </ItemGroup>
 
 </Project>
