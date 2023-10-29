@@ -115,3 +115,5 @@ And i got three error
 thn i read definition and solve it them
 them i provide rference
 now i am ready to go forward
+5.30 create static class in LovepreetBook.Utility project
+then modify the properties of sd class to public
