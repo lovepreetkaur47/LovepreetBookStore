@@ -125,3 +125,5 @@ I add new mvc area By name Customer
 first i was enable them i remove error add it again
 6.12 
 i changed routes in satrtup file to customr
+then i moved homeController.cs to area- customer- controler
+and delete model,Data folder
