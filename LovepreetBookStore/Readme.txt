@@ -127,3 +127,4 @@ first i was enable them i remove error add it again
 i changed routes in satrtup file to customr
 then i moved homeController.cs to area- customer- controler
 and delete model,Data folder
+Edit homecontroller [Area("Customer")]
