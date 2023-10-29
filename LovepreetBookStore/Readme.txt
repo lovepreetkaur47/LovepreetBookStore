@@ -121,3 +121,7 @@ then
 5.37 going to add Project references to Main project
 also add roject references to DataAccess project 
 5.52
+I add new mvc area By name Customer
+first i was enable them i remove error add it again
+6.12 
+i changed routes in satrtup file to customr

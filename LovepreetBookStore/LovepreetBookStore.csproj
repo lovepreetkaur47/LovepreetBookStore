@@ -13,12 +13,21 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LovepreetBook.DataAccess\LovepreetBook.DataAccess.csproj" />
+    <ProjectReference Include="..\LovepreetBokk.DataAccess\LovepreetBook.DataAccess.csproj" />
     <ProjectReference Include="..\LovepreetBook.Model\LovepreetBook.Model.csproj" />
     <ProjectReference Include="..\LovepreetBook.Utility\LovepreetBook.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Customer\Controllers\" />
+    <Folder Include="Areas\Customer\Data\" />
+    <Folder Include="Areas\Customer\Models\" />
+    <Folder Include="Areas\Customer\Views\" />
+  </ItemGroup>
+
+  
 </Project>
