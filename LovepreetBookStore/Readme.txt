@@ -137,4 +137,12 @@ yupppppppppppp it wil work
 9.47
 i startrd again 
 and test it it worked proper
+but bootstrap and css is not working
+then i followed toturial slides again 
+copied _viewImports.cshtml and _viewStart.cshtml to Cutomer area and
+Changed path in _ViewStart.cshtml 
+And then test it
+yupppppppppppppppppppppp
+its working
+
 
