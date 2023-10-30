@@ -147,4 +147,3 @@ its working
 and New mvc Admin area to area and delete Data Model Folder
 
 
-
