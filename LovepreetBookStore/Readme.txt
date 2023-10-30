@@ -144,5 +144,7 @@ Changed path in _ViewStart.cshtml
 And then test it
 yupppppppppppppppppppppp
 its working
+and New mvc Admin area to area and delete Data Model Folder
+
 
 
