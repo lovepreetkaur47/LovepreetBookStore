@@ -128,3 +128,13 @@ i changed routes in satrtup file to customr
 then i moved homeController.cs to area- customer- controler
 and delete model,Data folder
 Edit homecontroller [Area("Customer")]
+them rum it it gave me masssage local host is not found 
+uppppppppppppppppppppp.............................................
+then i add pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}"); to satrtup file 
+and run it 
+yupppppppppppp it wil work
+30/10/2023
+9.47
+i startrd again 
+and test it it worked proper
+
