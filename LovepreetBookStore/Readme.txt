@@ -145,5 +145,6 @@ And then test it
 yupppppppppppppppppppppp
 its working
 and New mvc Admin area to area and delete Data Model Folder
-
+10.06
+Delete the Controller from Area Folder
 
