@@ -156,4 +156,19 @@ references:
 https://getbootstrap.com/docs/4.4/components/dropdowns/
 then edit in to 
 Man Love preet
+5/11/2023
+i start project again 
+12.40
+i build project 
+yupppppp......................................
+it run 
+and 
+good to go ahead
+12.41
+i run command AddDefualtMigration 
+first i tried it at LovepreetBookStore
+as folow toturial 
+i run it in side LovepreetBook.DataAccess project i
+it succed
+
 
