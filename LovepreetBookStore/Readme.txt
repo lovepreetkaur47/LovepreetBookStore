@@ -181,4 +181,6 @@ then again run Categories migrataion file
 after analysing i solve tehe problem get data in migration file.
 2.58 i run update-Database commmand finally i did it 
 
+finaaly its time to go ahead 
+and i am at 2.2 repositary
 

@@ -13,10 +13,14 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-
+  
   <ItemGroup>
     <ProjectReference Include="..\LovepreetBook.Model\LovepreetBook.Model.csproj" />
     <ProjectReference Include="..\LovepreetBook.Utility\LovepreetBook.Utility.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+	  <Folder Include="Data\" />
   </ItemGroup>
 
 </Project>
