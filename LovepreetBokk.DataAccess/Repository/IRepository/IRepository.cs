@@ -23,8 +23,6 @@ namespace LovepreetBook.DataAccess.Repository.IRepository
         void Remove(int id); //to add an object or category
         void Remove(T entity); //another way to remove an object
         void RemoveRange(IEnumerable<T> entity); //removes a complete range of entities
-
-
     }
     
 }

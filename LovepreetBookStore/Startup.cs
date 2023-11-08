@@ -34,6 +34,7 @@ namespace LovepreetBookStore
 
             services.AddDefaultIdentity<IdentityUser>() //remove option
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+               
             services.AddControllersWithViews();
         }
 

@@ -4,7 +4,9 @@ using System.Text;
 
 namespace LovepreetBook.DataAccess.Repository.IRepository
 {
-    interface ICategoryRepositary
+    interface IUnitOfWork : IDisposable
     {
+        ICategoryRepository Category { get; }
+        ISP_Call SP_Call { get; }
     }
 }
