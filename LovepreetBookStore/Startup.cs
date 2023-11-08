@@ -1,3 +1,5 @@
+using LovepreetBook.DataAccess.Repository;
+using LovepreetBook.DataAccess.Repository.IRepository;
 using LovepreetBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,7 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LovepreetBookStore
+namespace GurmanBooksStore
 {
     public class Startup
     {
@@ -32,9 +34,9 @@ namespace LovepreetBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDefaultIdentity<IdentityUser>() //remove option
+            services.AddDefaultIdentity<IdentityUser>()//(options => options.SignIn.RequireConfirmedAccount = true) // modify this line
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-               
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
