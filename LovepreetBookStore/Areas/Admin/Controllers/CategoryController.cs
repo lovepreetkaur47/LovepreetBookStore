@@ -1,4 +1,5 @@
 ﻿using LovepreetBook.DataAccess.Repository.IRepository;
+using LovepreetBook.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,21 @@ namespace LovepreetBookStore.Areas.Admin.Controllers
         {
             return View();
         }
-
+        public IActionResult Upsert(int? id) //Action to upsert
+        {
+            Category category = new Category(); //using LovepreetBook.Model
+            if (id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View();
+        }
         //API calls here
         #region
         [HttpGet]
