@@ -26,10 +26,5 @@
     <ProjectReference Include="..\LovepreetBook.Utility\LovepreetBook.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-    <Folder Include="Areas\Admin\Views\" />
-  </ItemGroup>
-
   
 </Project>
