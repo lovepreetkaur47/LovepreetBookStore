@@ -39,25 +39,47 @@ namespace LovepreetBookStore.Areas.Admin.Controllers
         //Https post to define the post-action method
         //API calls here
         #region
-        [HttpGet]
+        [HttpPost]
         [ValidateAntiForgeryToken]
+
         public IActionResult Upsert(Category category)
         {
-            if(ModelState.IsValid)
+            if(ModelState.IsValid) //checks all validations in model
             {
                 if(category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
-                    _unitOfWork.Save
+                    
                 }
-                
+                else
+                {
+                    _unitOfWork.Category.Update(category);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index)); //see all th categories
+
+
             }
+            return View(category);
+
         }
         public IActionResult GetAll()
         {
             //return NotFound
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
+        }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if(objFromDb == null)
+            {
+                return Json(new { success = true, message = "Error while deleting"})
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful" });
         }
         #endregion
     }
