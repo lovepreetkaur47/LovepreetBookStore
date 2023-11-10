@@ -34,11 +34,25 @@ namespace LovepreetBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
+        //Https post to define the post-action method
         //API calls here
         #region
         [HttpGet]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert(Category category)
+        {
+            if(ModelState.IsValid)
+            {
+                if(category.Id == 0)
+                {
+                    _unitOfWork.Category.Add(category);
+                    _unitOfWork.Save
+                }
+                
+            }
+        }
         public IActionResult GetAll()
         {
             //return NotFound
