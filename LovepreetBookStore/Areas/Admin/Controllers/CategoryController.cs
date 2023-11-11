@@ -75,7 +75,7 @@ namespace LovepreetBookStore.Areas.Admin.Controllers
             var objFromDb = _unitOfWork.Category.Get(id);
             if(objFromDb == null)
             {
-                return Json(new { success = true, message = "Error while deleting"})
+                return Json(new { success = true, message = "Error while deleting" });
             }
             _unitOfWork.Category.Remove(objFromDb);
             _unitOfWork.Save();
