@@ -184,3 +184,94 @@ after analysing i solve tehe problem get data in migration file.
 finaaly its time to go ahead 
 and i am at 2.2 repositary
 
+add folder name as Repository in .DataAccess 
+and by Repository folder add IRepository folder under folder add 
+item namedby IRepository.cs
+
+ modifing file to do through all crud operations...........
+
+3.05
+Add new class Repository.cs in Repository folder
+then 
+i add  use statement and potential fixes to remove errors
+after
+Modify create the constructors 
+
+3.30
+i add an indivdual repos for category named CategoryRepository.cs 
+and ICategoryRepository.cs 
+modify CategoryRepository.cs
+while fixing i got errors and solve them using potential errors like adding name spaces
+also using statements
+
+4.03
+add interface folder named by ISP_Call.cs 
+which extends IDisposable
+then 
+i install the NuGet Package for 'Dapper' as shown in potential fixing eroor solution
+then i add it in using statement
+
+
+4.15
+add class sp_call.cs in Repository folder
+implementing ISP_Call.cs interface
+then i add database connection
+
+8.12
+updating  ISP_Call.cs interface
+
+then i got a email in my inbox tomorrow class is cancel
+and i left my all assignment and take breake
+
+8/11/2023
+11.23
+add interface class name IUnitOfWork.cs in IRepository folder 
+and update it as shown in pptx
+after............
+i add UnitOfWork.cs class in Repository 
+
+and services in startup.cs 
+its time to satrt
+
+********************* part 2.3
+12.1
+create a CategoryController in Areas-Admin-Controller 
+and update.................
+
+then
+add index view html file in Areas-View a
+modify with code which is provided Assignment2- files folder( Category Index View.txt.....)
+then link it in layout page
+run the app
+is good to go
+
+
+12.30
+add the icons in the Category through Font Awesome 4
+and confirm by run the appliction
+in wwwroot-js folder name as category.js
+add @section call to the category.js 
+
+
+12.45
+appling activate  'Edit' and 'Delete' buttons and 
+using the Upsert action....
+copy and paste the code from Category Upsert View.txt 
+after
+create partial
+_CreateAndBackToListButton.cshtml file 
+in View-Shared fold
+ _EditAndBookToListButton and add @model razor statement 
+
+1.00
+i update Upsert.cshtml 
+then run application
+added @section call to Scripts in Upsert.cshtml file
+
+
+at last------------------
+i added the API to call for HTTPDelete in the CategoryController
+delete funtion in category with including the onclick 
+I completed  part2 
+but create button not working...........
+
