@@ -167,7 +167,8 @@ and
 good to go ahead
 
 12.41
-
+update appsetting.json to  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=LovepreetBookStore;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
 i run command AddDefualtMigration 
 first i tried it at LovepreetBookStore
 as folow toturial 
