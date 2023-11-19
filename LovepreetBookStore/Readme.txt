@@ -288,3 +288,19 @@ ssl
  i tried to run 
  but no output found then i aplied migration 
  now its good to go a head
+
+
+ its Time to go a head 
+ part 3 Section 1 ***********************
+ i create new class named coverType same as crud type way
+ 10.30
+ i was trying to create it 
+ but when i run add migration command i get only without data migration
+ then i open ApplicationDbContext.cs file and write 
+  public DbSet<CoverType> Covertypes { get; set; }
+  ***********************
+  then save it and run it i got 
+  migration in my account
+  the name is 
+  ***********20231119035741_AddCoverTypeToDb********
+  then update data base
