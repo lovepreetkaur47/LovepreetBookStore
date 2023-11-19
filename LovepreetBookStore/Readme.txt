@@ -158,18 +158,23 @@ then edit in to
 Man Love preet
 5/11/2023
 i start project again 
+
 12.40
 i build project 
 yupppppp......................................
 it run 
 and 
 good to go ahead
+
 12.41
+update appsetting.json to  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=LovepreetBookStore;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
 i run command AddDefualtMigration 
 first i tried it at LovepreetBookStore
 as folow toturial 
 i run it in side LovepreetBook.DataAccess project i
 it succed
+
 1.01pm 
 run update-database command
 yuppp 
@@ -234,7 +239,7 @@ and services in startup.cs
 its time to satrt
 
 ********************* part 2.3
-12.1
+12.10
 create a CategoryController in Areas-Admin-Controller 
 and update.................
 
@@ -263,15 +268,23 @@ _CreateAndBackToListButton.cshtml file
 in View-Shared fold
  _EditAndBookToListButton and add @model razor statement 
 
+
 1.00
 i update Upsert.cshtml 
 then run application
 added @section call to Scripts in Upsert.cshtml file
 
-
+13/11/2023
 at last------------------
 i added the API to call for HTTPDelete in the CategoryController
 delete funtion in category with including the onclick 
 I completed  part2 
 but create button not working...........
 
+14/11/2023
+comment
+ssl
+ //"sslPort": 44308 to run on local
+ i tried to run 
+ but no output found then i aplied migration 
+ now its good to go a head
