@@ -302,5 +302,5 @@ ssl
   then save it and run it i got 
   migration in my account
   the name is 
-  ***********20231119035741_AddCoverTypeToDb********
+  ***********20231120174324_AddCoverTypeToDb********
   then update data base
