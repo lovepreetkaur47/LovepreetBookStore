@@ -1,4 +1,4 @@
-﻿using LovepreetBook.DataAccess.Repository.IRepository;
+﻿using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
 using LovepreetBookStore.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using System;

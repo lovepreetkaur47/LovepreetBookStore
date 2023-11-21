@@ -1,10 +1,12 @@
-﻿using LovepreetBook.DataAccess.Repository.IRepository;
+﻿using LovepreetBook.DataAccess.Repository;
+using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
+using LovepreetBook.DataAccess.Repository.IRepository;
 using LovepreetBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LovepreetBook.DataAccess.Repository
+namespace GurmanBook.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -15,10 +17,13 @@ namespace LovepreetBook.DataAccess.Repository
             _db = db;
             Category = new CategoryRepository(_db);
             SP_Call = new SP_Call(_db);
+            CoverType = new CoverTypeRepository(_db);
         }
 
         public ICategoryRepository Category { get; private set; }
         public ISP_Call SP_Call { get; private set; }
+
+        public ICoverTypeRepository CoverType { get; private set; }
 
         public void Dispose()
         {

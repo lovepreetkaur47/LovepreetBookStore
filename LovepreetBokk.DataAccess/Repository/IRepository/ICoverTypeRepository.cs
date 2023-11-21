@@ -1,18 +1,13 @@
 ﻿using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
+using LovepreetBook.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace LovepreetBook.DataAccess.Repository.IRepository
 {
-    public interface IUnitOfWork : IDisposable
+    public interface ICoverTypeRepository : IRepository<CoverType>
     {
-        ICategoryRepository Category { get; }
-
-        ISP_Call SP_Call { get; }
-
-        ICoverTypeRepository CoverType { get; }
-
-        void Save();
+        void Update(CoverType coverType);
     }
 }

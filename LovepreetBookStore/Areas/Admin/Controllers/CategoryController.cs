@@ -1,4 +1,5 @@
-﻿using LovepreetBook.DataAccess.Repository.IRepository;
+﻿using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
+using LovepreetBook.DataAccess.Repository.IRepository;
 using LovepreetBook.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace LovepreetBook.DataAccess.Repository.IRepository
+namespace LovepreetBook.DataAccess.Repository.ICoverTypeRepository
 {
     public interface IRepository<T> where T : class
     {

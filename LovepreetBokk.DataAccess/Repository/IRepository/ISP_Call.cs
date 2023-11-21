@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LovepreetBook.DataAccess.Repository.IRepository
+namespace LovepreetBook.DataAccess.Repository.ICoverTypeRepository
 {
     public interface ISP_Call : IDisposable
     {

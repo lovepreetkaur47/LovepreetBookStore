@@ -295,12 +295,22 @@ ssl
  i create new class named coverType same as crud type way
  10.30
  i was trying to create it 
- but when i run add migration command i get only without data migration
+ 
+ 
+create CoverType.cs in LovepreetBook.Model project 
+Then
+add id and name 
+then
+i added CoverTypeRepository in Repository folder 
+and ICoverTypeRepository interface to IRepository folder
+then add CoverType to UnitOfWork class and IUnitOfWork interface
+
+20-11-2023
  then i open ApplicationDbContext.cs file and write 
   public DbSet<CoverType> Covertypes { get; set; }
   ***********************
   then save it and run it i got 
   migration in my account
   the name is 
-  ***********20231120174324_AddCoverTypeToDb********
+  ***********20231121004220_AddCoverTypeToDb********
   then update data base

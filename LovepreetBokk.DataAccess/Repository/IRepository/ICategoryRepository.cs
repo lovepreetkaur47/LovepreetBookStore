@@ -1,4 +1,5 @@
-﻿using LovepreetBook.Model;
+﻿using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
+using LovepreetBook.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;

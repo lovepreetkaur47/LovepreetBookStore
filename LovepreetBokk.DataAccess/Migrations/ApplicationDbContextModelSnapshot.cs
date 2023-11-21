@@ -50,7 +50,7 @@ namespace LovepreetBook.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Covertypes");
+                    b.ToTable("CoverTypes");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
