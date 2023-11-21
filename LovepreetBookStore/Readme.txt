@@ -342,3 +342,24 @@ the ProductRepository.cs file......
 then create ProductContoller, js, 
 index and upsert view same as the coverType 
 and add into UnitOfWork And IUnitOfWork
+3.42
+***************************part-3.2 ******************************
+i modified the ProductController.cs
+i created a ProductVM.cs  view model
+Then
+i installed package "Microsoft.AspNetCore.Mvc.ViewFeatures" in packager install
+
+i modified ProductController.cs file 
+update API call to include the Category 
+CoverType Properties.....
+i modified the product index view file,
+added Title, ISBN, Price, Author and Category
+updated URL in  product.js file 
+i modify the _Layout.cshtml file to add a
+new link of product in nav bar
+
+
+3.50
+run the application to test
+yupppppppppppp 
+its working
