@@ -6,6 +6,7 @@ using System.Text;
 
 namespace LovepreetBook.DataAccess.Repository.IRepository
 {
+
     public interface ICoverTypeRepository : IRepository<CoverType>
     {
         void Update(CoverType coverType);

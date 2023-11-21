@@ -1,5 +1,6 @@
 ﻿using LovepreetBook.DataAccess.Repository;
 using LovepreetBook.DataAccess.Repository.IRepository;
+using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
 using LovepreetBook.Model;
 using LovepreetBookStore.DataAccess.Data;
 using System;
@@ -7,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GurmanBook.DataAccess.Repository
+namespace LovepreetBokk.DataAccess.Repository
 {
     public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {

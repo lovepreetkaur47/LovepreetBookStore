@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GurmanBook.DataAccess.Repository
+namespace LovepreetBokk.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -23,7 +23,11 @@ namespace GurmanBook.DataAccess.Repository
         public ICategoryRepository Category { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
-        public ICoverTypeRepository CoverType { get; private set; }
+        public CoverTypeRepository CoverType { get; private set; }
+
+        LovepreetBook.DataAccess.Repository.IRepository.ICoverTypeRepository IUnitOfWork.CoverType => throw new NotImplementedException();
+
+       
 
         public void Dispose()
         {
