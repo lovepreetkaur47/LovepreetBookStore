@@ -322,3 +322,6 @@ then add CoverType to UnitOfWork class and IUnitOfWork interface
   Then i added new folder CoverType in Areas/Views
   then i added new view Index.cshtml
   then i added new view Upsert.cshtml
+  Also i add coverType.js file in www.root/js
+  and create delete and upsert method also 
+  call api to delete and edit method
