@@ -325,3 +325,7 @@ then add CoverType to UnitOfWork class and IUnitOfWork interface
   Also i add coverType.js file in www.root/js
   and create delete and upsert method also 
   call api to delete and edit method
+  11.07pm
+  add new migration toproduct
+  888888888888****20231121040447_AddProductToDb*******8888888888888
+them update data base
