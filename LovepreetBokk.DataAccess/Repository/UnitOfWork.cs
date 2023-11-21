@@ -1,12 +1,13 @@
-﻿using LovepreetBook.DataAccess.Repository;
+﻿using LovepreetBokk.DataAccess.Repository;
 using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
 using LovepreetBook.DataAccess.Repository.IRepository;
+using LovepreetBook.Model;
 using LovepreetBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LovepreetBokk.DataAccess.Repository
+namespace LovepreetBook.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
@@ -18,16 +19,16 @@ namespace LovepreetBokk.DataAccess.Repository
             Category = new CategoryRepository(_db);
             SP_Call = new SP_Call(_db);
             CoverType = new CoverTypeRepository(_db);
+            
         }
 
         public ICategoryRepository Category { get; private set; }
         public ISP_Call SP_Call { get; private set; }
 
         public CoverTypeRepository CoverType { get; private set; }
+        
 
-        LovepreetBook.DataAccess.Repository.IRepository.ICoverTypeRepository IUnitOfWork.CoverType => throw new NotImplementedException();
-
-       
+        IRepository.ICoverTypeRepository IUnitOfWork.CoverType => throw new NotImplementedException();
 
         public void Dispose()
         {
