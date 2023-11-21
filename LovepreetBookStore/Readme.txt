@@ -314,3 +314,7 @@ then add CoverType to UnitOfWork class and IUnitOfWork interface
   the name is 
   ***********20231121004220_AddCoverTypeToDb********
   then update data base
+  8.02
+  i add new covertype cotroller
+  then added some important method like upert, delete, get all, remove, delete 
+  then i remove all the errors through potential solutions 
