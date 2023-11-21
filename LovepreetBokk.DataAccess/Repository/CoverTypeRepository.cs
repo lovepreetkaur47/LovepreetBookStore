@@ -1,6 +1,5 @@
 ﻿using LovepreetBook.DataAccess.Repository;
 using LovepreetBook.DataAccess.Repository.IRepository;
-using LovepreetBook.DataAccess.Repository.ICoverTypeRepository;
 using LovepreetBook.Model;
 using LovepreetBookStore.DataAccess.Data;
 using System;
@@ -34,3 +33,4 @@ namespace LovepreetBokk.DataAccess.Repository
         }
     }
 }
+

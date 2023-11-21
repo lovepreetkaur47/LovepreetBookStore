@@ -329,3 +329,16 @@ then add CoverType to UnitOfWork class and IUnitOfWork interface
   add new migration toproduct
   888888888888****20231121040447_AddProductToDb*******8888888888888
 them update data base
+i applied Required method  "Title", "ISBN" and "Author", 
+create add migration "AddValidationToProduc
+*****************20231121054215_addValidationToProduct*************
+then
+Update-database
+
+1.52
+i create ProductRepository to Repository 
+IProductRepository to IRepository 
+the ProductRepository.cs file......
+then create ProductContoller, js, 
+index and upsert view same as the coverType 
+and add into UnitOfWork And IUnitOfWork
