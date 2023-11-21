@@ -318,3 +318,7 @@ then add CoverType to UnitOfWork class and IUnitOfWork interface
   i add new covertype cotroller
   then added some important method like upert, delete, get all, remove, delete 
   then i remove all the errors through potential solutions 
+  8.34
+  Then i added new folder CoverType in Areas/Views
+  then i added new view Index.cshtml
+  then i added new view Upsert.cshtml
